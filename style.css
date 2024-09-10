@@ -59,3 +59,29 @@ nav ul li a {
 .hero-contant .hero-text p {
   margin-bottom: 50px;
 }
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .btn2 {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .hero-contant {
+    padding: 20px 40px;
+    flex-direction: column;
+    background-position: center;
+    gap: 20px;
+  }
+  nav .logo .logo-img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .hero-contant .hero-text h1 {
+    font-size: 50px;
+  }
+}
