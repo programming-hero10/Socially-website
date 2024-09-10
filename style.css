@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+header {
+  background-image: url(images/back-image.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 150px;
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.btn .btn1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  text-decoration: none;
+  margin-right: 25px;
+}
+.btn2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 30px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #df4887, #c430d7);
+  border-radius: 20px;
+  text-decoration: none;
+  border-top-right-radius: 0;
+}
+.hero-contant {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding: 20px 90px;
+}
+.hero-contant .img img {
+  width: 100%;
+}
+.hero-contant .hero-text h1 {
+  font-size: 72px;
+}
+.hero-contant .hero-text p {
+  margin-bottom: 50px;
+}
